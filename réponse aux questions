@@ -1,0 +1,11 @@
+1. Quelle est la différence entre Git et GitHub ?
+Git est un logiciel de gestion de versions (VCS) qui s'installe localement sur ton ordinateur. Il permet de suivre l'évolution des fichiers d'un projet et d'enregistrer l'historique des modifications.
+GitHub est une plateforme en ligne (un service cloud) qui permet d'héberger, de partager et de collaborer sur des dépôts Git. En résumé : Git est l'outil, GitHub est le service d'hébergement pour cet outil.
+2. À quoi sert la commande git init ?
+Elle permet d'initialiser un nouveau dépôt Git local dans le dossier où tu te trouves. Elle crée un dossier caché .git qui va contenir tout l'historique et la configuration de suivi des versions de ton projet.
+3. Quelle commande permet d’envoyer un projet sur GitHub ?
+C'est la commande git push.
+4. Pourquoi utilise-t-on les branches ?
+Les branches permettent de travailler sur une nouvelle fonctionnalité, de corriger un bug ou de faire des tests de manière totalement isolée, sans risquer de casser le code de la branche principale (généralement appelée main ou master). Une fois le travail validé, on peut fusionner (merger) cette branche avec la branche principale.
+5. Quelle commande permet de voir l’historique des commits ?
+C'est la commande git log. Elle affiche la liste des commits avec leur identifiant (hash), l'auteur, la date et le message associé.
